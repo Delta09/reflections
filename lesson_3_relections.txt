@@ -10,9 +10,12 @@ Branching a repository creates an offshoot of the code, when you want to impleme
 is that you might want to merge all of them back into the original code at some point.
 
 4. What is the benefit of having a copy of the last known state of the remote stored locally?
-
+If I am about to go without Internet access for a while, for example to work on a plane, I can update my local copy before I leave. I can do this 
+even if I'm not ready to merge those changes into my own branches yet.  Then if I want, I can perform the merge while offline, or I need to know 
+what the remote version is at some point, I have an easy way to access it.
 
 5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
-
+I would probably use Google Drive. What would make it harder is making sure no one edits my code, but what would be convenient would be simultaneous coding
 
 6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+You can work on experimental aspectsto the project without sacrificing on the sstability of it. Only when it is stable would you want to merge back into the master.
